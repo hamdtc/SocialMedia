@@ -11,12 +11,10 @@ const Home = () => {
   useEffect(() => {
     dispatch(fetchPosts());
   }, [dispatch]);
-
   return (
     <div>
       {loading ? <Loading /> : <ItemList items={items} />}
     </div>
   );
-};
-
+}
 export default Home;

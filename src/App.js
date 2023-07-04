@@ -21,7 +21,6 @@ const App = () => {
     </Provider>
   );
 };
-
 const ItemDetailWrapper = () => {
   const params = useParams();
 
